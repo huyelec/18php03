@@ -1,0 +1,64 @@
+
+/*dọc(1024)*/
+@media only screen and (max-width: 1024px){
+	body{
+		width: 100%;
+	}
+}
+
+/*dọc(768)*/
+@media only screen and (max-width: 768px){
+    #logo{
+    	width: 100%;
+    }
+    #sologan{
+    	width: 100%;
+    }
+
+    #slidia{
+		width: 100%;
+	}
+
+	#new1{
+		float: none;
+	}
+	#new2{
+		float: left;
+		border-left: 4px solid white;
+		width: 50%;
+	}
+	#new3{
+
+		width: 100%;
+	}
+	#artick1{
+
+		border-right: 2px solid white;
+		width: 50%;
+	}
+	#artick2{
+
+		border-left: 2px solid white;
+		width: 50%;
+	}
+	#footer1{
+
+		width: 50%;
+	}
+	#footer2{
+
+		border-left: 4px solid white;
+		width: 50%;
+	}
+	#footer3{
+
+		width: 100%;
+	}
+
+}
+
+
+/*dọc(480)*/
+@media screen and (max-width: 480px){
+    
+}

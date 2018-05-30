@@ -1,0 +1,163 @@
+/* == Reset CSS == */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid red;
+	padding: auto;
+	width: 1024px;
+	height: auto;
+}
+header{
+	margin: auto;
+	border-bottom: 3px;
+	height: 100px;
+}
+
+#content{
+	border-top: 3px solid white;
+	width: 100%;
+	height: 380px;
+	border-bottom: 3px solid white;
+}
+
+#logo{
+	float: left;
+	border-right: 2px solid white;
+	width: 40%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #DDA0DD;
+}
+
+#sologan{
+	float: left;
+	border-left: 2px solid white;
+	width: 59.61%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #DDA0DD;
+}
+
+#menu {
+	height: 40px;
+	background-color: #FC9;
+	margin: 5px 0px;
+}
+#menu ul {
+	list-style:none; /* - bỏ ký hiệu dấu chấm tròn trước đầu mỗi hàng danh sách - */
+}
+/* - đưa các dòng về nằm chung một hàng và thêm viền phân cách giữa các thành phần này với nhau - */
+#menu ul li {
+	float: left;
+	border-right: 1px dotted #999;
+	position: relative;
+}
+#menu ul li:last-child {
+	border: none;
+}
+/* - định dạng thẻ <a>  trong menu này như là bỏ gạch chân, quy định độ cao, độ rộng
+thêm thuộc tính white-space: pre; để tất cả khoảng trắng trong phần tử sẽ được cho phép giữ nguyên. -*/
+#menu ul li a {
+	text-decoration: none;
+	padding: 10px 40px;
+	display: block;
+	white-space: pre;
+}
+#menu ul li a:hover {
+	color: red;
+	background-color: #FF0;
+	border-top: 5px blue solid;
+}
+/*== cap 2 ==*/
+#menu ul ul li {
+	float: none;
+	border-right: none;
+	border-bottom: 1px dotted #999;
+}
+#menu ul ul {
+	background-color: #0FF;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	display: none;
+}
+#menu ul li:hover > ul {
+	display: block;
+}
+
+/* == cap 3 == */
+#menu ul ul ul
+{
+  left:100%;
+  top:0;
+}
+
+#slidia {
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	background-color: blue;
+}
+
+
+#artick{
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	height: 247px;
+	line-height: 247px;
+	text-align: center;
+	
+}
+#artick1{
+	float: left;
+	border-right: 2px solid white;
+	width: 49.8%;
+	background-color: green;
+}
+#artick2{
+	float: left;
+	border-left: 2px solid white;
+	width: 49.8%;
+	background-color: green;
+}
+
+footer{
+	border-top: 3px solid white;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+#footer1{
+	float: left;
+	width: 32.93%;
+	background-color: gray;
+}
+#footer2{
+	float: left;
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+	width: 32.93%;
+	background-color: gray;
+}
+#footer3{
+	float: left;
+	width: 32.93%;
+	background-color: gray;
+}
+
+
+
+
+
+

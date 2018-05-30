@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid green;
+	padding: auto;
+	width: 607px;
+	height: auto;
+}
+header{
+	margin: 5px;
+	border: 2px solid blue;
+	background-color: white;
+}
+header h3{
+	border-bottom: 3px solid blue;
+	padding-left: 10px;
+	width: 577px;
+	height: 30px;
+	background-color: blue;
+}
+header p{
+	padding: auto;
+	width: 585px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+#content{
+	margin: 5px;
+	border: 2px solid blue;
+	height: 500px;
+	background-color: white;
+}
+
+#navigation{
+	float: left;
+	margin: 5px;
+	border: 2px solid blue;
+	width: 150px;
+	height: 485px;
+}
+#navigation h3{
+	border-bottom: 3px solid blue;
+	padding-left: 10px;
+	width: 140px;
+	height: 30px;
+	background-color: blue;
+}
+#navigation p{
+	padding: auto;
+	height: 467px;
+	line-height: 467px;
+	text-align: center;
+}
+
+#placeholder{
+	float: left;
+	margin: 5px;
+	border: 2px solid blue;
+	width: 250px;
+	height: 485px;
+}
+#placeholder h3{
+	border-bottom: 3px solid blue;
+	padding-left: 10px;
+	width: 240px;
+	height: 30px;
+	background-color: blue;
+}
+#placeholder p{
+	padding: auto;
+	height: 467px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+aside{
+	float: left;
+	margin: 5px;
+	border: 2px solid blue;
+	width: 150px;
+	height: 485px;
+}
+.articles-downloads h3{
+	border-bottom: 3px solid blue;
+	padding-left: 10px;
+	width: 140px;
+	height: 30px;
+	background-color: blue;
+}
+.articles-downloads p{
+	padding: auto;
+	height: 233px;
+	text-align: center;
+}
