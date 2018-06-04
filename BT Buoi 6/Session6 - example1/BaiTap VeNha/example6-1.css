@@ -99,12 +99,26 @@ header {
 }
 
 /* - Menu cap 3 - */
-.sub_menu13 {
+.sub_menu13 ul {
 	background-color: #EEEEEE;
 	display: none;
 	position: absolute;
-	top: 0%;
-	left: 0px;
+	top: 66%;
+	left: 100%;
+}
+#menu ul ul li:hover > ul {
+	display: block;
+}
+#menu ul ul ul li a {
+	color: black;
+	width: 80px;
+	text-align: center;
+	padding: 15px 33px;
+}
+#menu ul ul ul li a:hover {
+	color: #FF0000;
+	background-color: black;
+	border-bottom: 2px solid white;
 }
 
 /* == Phan giua trang == */
