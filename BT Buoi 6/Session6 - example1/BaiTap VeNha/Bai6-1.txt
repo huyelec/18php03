@@ -1,0 +1,8 @@
+BTVN:[Nghiên cuu thêm] lay logo và banner nhu https://danang.gov.vn/ n?u k tìm dc logo và banner ung ý
+
+Tao trang gioi thieu ve các cây cau o Ðà Nang
+- Có logo Ðà Nâng, banner
+- Có menu: Trang chu, gioi thieu, danh sach các cây cau, liên he
+- Có bo cuc gioi thieu các cây cau
+- Có footer chua thong tin liên he.
+- Hien thi dep trên desktop, tablet, mobile

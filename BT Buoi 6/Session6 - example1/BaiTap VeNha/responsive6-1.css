@@ -1,0 +1,97 @@
+/*dọc(1024)*/
+@media screen and (max-width: 1024px){
+	body{
+		width: 100%;
+	}
+}
+
+/*dọc(768)*/
+@media screen and (max-width: 768px) {
+	
+    #logo {
+    	width: 49.7%;
+    }
+    #sologan {
+    	width: 49.7%;
+    }
+
+    #slidia {
+		width: 100%;
+	}
+
+	#menu ul li {
+		width: 100%;
+	}
+
+	#section1 {
+		width: 49.7%;
+	}
+	#section2 {
+		width: 49.7%;
+	}
+	#footer1 {
+		width: 49.7%;
+	}
+	#footer2 {
+		width: 49.7%;
+		border-right: 0px solid white;
+	}
+	#footer3 {
+		width: 100%;
+		border-top: 3px solid white;
+	}
+}
+
+
+/*dọc(480)*/
+@media screen and (max-width: 480px) {
+	
+    #logo {
+    	width: 100%;
+    }
+    #sologan {
+    	width: 100%;
+    }
+
+    #slidia {
+		width: 100%;
+	}
+
+	#new1 {
+		width: 100%;
+	}
+	#new2 {
+		width: 100%;
+		border-left: 0px solid white;
+		border-right: 0px solid white;
+	}
+	#new3 {
+		width: 100%;
+	}
+
+	#section1 {
+		width: 100%;
+	}
+	#section2 {
+		width: 100%;
+	}
+	#footer1 {
+		width: 100%;
+	}
+	#footer2 {
+		width: 100%;
+		border-top: 3px solid white;
+		border-left: 0px solid white;
+		border-right: 0px solid white;
+	}
+	#footer3 {
+		width: 100%;
+		border-top: 3px solid white;
+	}
+}
+
+
+
+
+
+
